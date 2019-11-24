@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1574481961">
+  <File Type="BITSTR-BMM" Name="vivadotop_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="vivadotop_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="vivadotop_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="vivadotop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="vivadotop.tcl"/>
+  <File Type="OPT-TIMING" Name="vivadotop_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="vivadotop_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="vivadotop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="vivadotop_reports.tcl"/>
+  <File Type="OPT-DRC" Name="vivadotop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="vivadotop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="vivadotop_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="vivadotop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="vivadotop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="vivadotop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="vivadotop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="vivadotop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vivadotop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vivadotop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="vivadotop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="vivadotop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vivadotop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="vivadotop.bgn"/>
+  <File Type="PLACE-TIMING" Name="vivadotop_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vivadotop_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="vivadotop.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="vivadotop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="vivadotop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="vivadotop_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="vivadotop.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="vivadotop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vivadotop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="vivadotop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vivadotop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="vivadotop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vivadotop_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="vivadotop.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="vivadotop_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="vivadotop.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vivadotop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vivadotop_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="vivadotop.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vivadotop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="vivadotop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="vivadotop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vivadotop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vivadotop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="vivadotop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vivadotop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="vivadotop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="vivadotop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="vivadotop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="vivadotop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="vivadotop_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vivadotop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vivadotop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vivadotop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vivadotop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vivadotop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="vivadotop_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="vivadotop_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="vivadotop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="vivadotop_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="vivadotop.rbt"/>
+  <File Type="BITSTR-NKY" Name="vivadotop.nky"/>
+  <File Type="BG-DRC" Name="vivadotop.drc"/>
+  <File Type="RDI-RDI" Name="vivadotop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_3/c_shift_ram_3.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_2/c_shift_ram_2.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/I2C_Controller.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/I2C_OV7670_RGB565_Config.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IICctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IICctrl_0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/camCap.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/camCap_0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/difference.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dilation.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/erosion.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/erosion2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/goal_position.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/key.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/line_shift_3X3_1bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/line_shift_3X3_1bit_di.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/line_shift__9X9_1Bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_recv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_send.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_output.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/topvivado.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vivadotop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

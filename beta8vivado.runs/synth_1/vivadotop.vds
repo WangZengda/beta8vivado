@@ -1,0 +1,751 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov 23 12:06:04 2019
+# Process ID: 5172
+# Current directory: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1
+# Command line: vivado.exe -log vivadotop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vivadotop.tcl
+# Log file: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/vivadotop.vds
+# Journal file: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vivadotop.tcl -notrace
+Command: synth_design -top vivadotop -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9424 
+WARNING: [Synth 8-2611] redeclaration of ansi port pwdm is not allowed [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:88]
+WARNING: [Synth 8-976] pwdm has already been declared [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:88]
+WARNING: [Synth 8-2654] second declaration of pwdm ignored [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:88]
+INFO: [Synth 8-994] pwdm is declared here [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:49]
+WARNING: [Synth 8-2611] redeclaration of ansi port reset_cam is not allowed [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:89]
+WARNING: [Synth 8-976] reset_cam has already been declared [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:89]
+WARNING: [Synth 8-2654] second declaration of reset_cam ignored [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:89]
+INFO: [Synth 8-994] reset_cam is declared here [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:50]
+WARNING: [Synth 8-992] last_data is already implicitly declared earlier [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:428]
+WARNING: [Synth 8-992] x_position is already implicitly declared earlier [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:447]
+WARNING: [Synth 8-992] y_position is already implicitly declared earlier [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:448]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 483.281 ; gain = 116.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'vivadotop' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:23]
+	Parameter hRez bound to: 800 - type: integer 
+	Parameter hStartSync bound to: 840 - type: integer 
+	Parameter hEndSync bound to: 968 - type: integer 
+	Parameter hMaxCount bound to: 1056 - type: integer 
+	Parameter vRez bound to: 600 - type: integer 
+	Parameter vStartSync bound to: 601 - type: integer 
+	Parameter vEndSync bound to: 605 - type: integer 
+	Parameter vMaxCount bound to: 628 - type: integer 
+	Parameter hsync_active bound to: 0 - type: integer 
+	Parameter vsync_active bound to: 0 - type: integer 
+	Parameter SRAM_ADDR_END bound to: 76800 - type: integer 
+	Parameter SIZE bound to: 50000 - type: integer 
+	Parameter CLK_FREQ bound to: 40000000 - type: integer 
+	Parameter UART_BPS bound to: 115200 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (2#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'camCap_0' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/camCap_0.v:1]
+INFO: [Synth 8-6157] synthesizing module 'camCap' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/camCap.v:23]
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/camCap.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'camCap' (3#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/camCap.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'camCap_0' (4#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/camCap_0.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IICctrl_0' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/IICctrl_0.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IICctrl' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/IICctrl.v:23]
+	Parameter LUT_SIZE bound to: 193 - type: integer 
+	Parameter CLK_Freq bound to: 25000000 - type: integer 
+	Parameter I2C_Freq bound to: 10000 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/IICctrl.v:97]
+INFO: [Synth 8-6157] synthesizing module 'I2C_OV7670_RGB565_Config' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/I2C_OV7670_RGB565_Config.v:23]
+	Parameter Read_DATA bound to: 0 - type: integer 
+	Parameter SET_OV7670 bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'I2C_OV7670_RGB565_Config' (5#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/I2C_OV7670_RGB565_Config.v:23]
+INFO: [Synth 8-6157] synthesizing module 'I2C_Controller' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/I2C_Controller.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'I2C_Controller' (6#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/I2C_Controller.v:23]
+WARNING: [Synth 8-6014] Unused sequential element Config_Done_reg was removed.  [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/IICctrl.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'IICctrl' (7#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/IICctrl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IICctrl_0' (8#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/IICctrl_0.v:23]
+INFO: [Synth 8-6157] synthesizing module 'key' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/key.v:23]
+	Parameter CNT_END bound to: 33000000 - type: integer 
+	Parameter TIME bound to: 99 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'key' (9#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/key.v:23]
+INFO: [Synth 8-6157] synthesizing module 'difference' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/difference.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'difference' (10#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/difference.v:23]
+WARNING: [Synth 8-350] instance 'u_difference' of module 'difference' requires 11 connections, but only 10 given [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:286]
+INFO: [Synth 8-6157] synthesizing module 'erosion' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/erosion.v:23]
+INFO: [Synth 8-6157] synthesizing module 'line_shift__9X9_1Bit' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift__9X9_1Bit.v:23]
+WARNING: [Synth 8-3848] Net row1_data in module/entity line_shift__9X9_1Bit does not have driver. [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift__9X9_1Bit.v:56]
+WARNING: [Synth 8-3848] Net row2_data in module/entity line_shift__9X9_1Bit does not have driver. [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift__9X9_1Bit.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'line_shift__9X9_1Bit' (11#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift__9X9_1Bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'erosion' (12#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/erosion.v:23]
+WARNING: [Synth 8-350] instance 'u_erosion' of module 'erosion' requires 9 connections, but only 8 given [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:319]
+INFO: [Synth 8-6157] synthesizing module 'erosion2' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/erosion2.v:24]
+INFO: [Synth 8-6157] synthesizing module 'line_shift_3X3_1bit' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift_3X3_1bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_0' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_0' (13#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_1' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_1' (14#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'line_shift_3X3_1bit' (15#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift_3X3_1bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'erosion2' (16#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/erosion2.v:24]
+INFO: [Synth 8-6157] synthesizing module 'dilation' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/dilation.v:23]
+INFO: [Synth 8-6157] synthesizing module 'line_shift_3X3_1bit_di' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift_3X3_1bit_di.v:23]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_2' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_2' (17#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_3' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_3' (18#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/.Xil/Vivado-5172-DESKTOP-DULGENH/realtime/c_shift_ram_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'line_shift_3X3_1bit_di' (19#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift_3X3_1bit_di.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dilation' (20#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/dilation.v:23]
+INFO: [Synth 8-6157] synthesizing module 'goal_position' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:23]
+	Parameter FIX bound to: 8 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:50]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:52]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:56]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:69]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:70]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:84]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:86]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:101]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:102]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:117]
+INFO: [Synth 8-6155] done synthesizing module 'goal_position' (21#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/goal_position.v:23]
+INFO: [Synth 8-6157] synthesizing module 'vga_output' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/vga_output.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'vga_output' (22#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/vga_output.v:23]
+INFO: [Synth 8-6157] synthesizing module 'uart_recv' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/uart_recv.v:23]
+	Parameter CLK_FREQ bound to: 40000000 - type: integer 
+	Parameter UART_BPS bound to: 115200 - type: integer 
+	Parameter BPS_CNT bound to: 347 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_recv' (23#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/uart_recv.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'uart_data' does not match port width (8) of module 'uart_recv' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:499]
+INFO: [Synth 8-6157] synthesizing module 'uart_send' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/uart_send.v:23]
+	Parameter CLK_FREQ bound to: 40000000 - type: integer 
+	Parameter UART_BPS bound to: 115200 - type: integer 
+	Parameter BPS_CNT bound to: 347 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_send' (24#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/uart_send.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'vivadotop' (25#1) [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:23]
+WARNING: [Synth 8-3917] design vivadotop has port pwdm driven by constant 0
+WARNING: [Synth 8-3917] design vivadotop has port reset_cam driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 530.828 ; gain = 164.285
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 530.828 ; gain = 164.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 530.828 ; gain = 164.285
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_3/c_shift_ram_3/c_shift_ram_0_in_context.xdc] for cell 'u_dilation/u_line_shift_3X3_1bit_di/u_c_shift_ram_3'
+Finished Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_3/c_shift_ram_3/c_shift_ram_0_in_context.xdc] for cell 'u_dilation/u_line_shift_3X3_1bit_di/u_c_shift_ram_3'
+Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_2/c_shift_ram_2/c_shift_ram_0_in_context.xdc] for cell 'u_dilation/u_line_shift_3X3_1bit_di/u_c_shift_ram_2'
+Finished Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_2/c_shift_ram_2/c_shift_ram_0_in_context.xdc] for cell 'u_dilation/u_line_shift_3X3_1bit_di/u_c_shift_ram_2'
+Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1/c_shift_ram_0_in_context.xdc] for cell 'u_erosion2/u_line_shift_3X3_1bit/u_c_shift_ram_1'
+Finished Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1/c_shift_ram_0_in_context.xdc] for cell 'u_erosion2/u_line_shift_3X3_1bit/u_c_shift_ram_1'
+Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'u_erosion2/u_line_shift_3X3_1bit/u_c_shift_ram_0'
+Finished Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'u_erosion2/u_line_shift_3X3_1bit/u_c_shift_ram_0'
+Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Finished Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'blk_mem_gen_0'
+Finished Parsing XDC File [c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'blk_mem_gen_0'
+Parsing XDC File [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/constrs_1/new/xdc.xdc]
+WARNING: [Vivado 12-507] No nets matched 'pclk_IBUF'. [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/constrs_1/new/xdc.xdc:79]
+Finished Parsing XDC File [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/constrs_1/new/xdc.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/constrs_1/new/xdc.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/vivadotop_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/constrs_1/new/xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vivadotop_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vivadotop_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 871.719 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 871.719 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 871.719 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 871.719 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 871.719 ; gain = 505.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 871.719 ; gain = 505.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk100. (constraint file  c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk100. (constraint file  c:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for u_dilation/u_line_shift_3X3_1bit_di/u_c_shift_ram_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_dilation/u_line_shift_3X3_1bit_di/u_c_shift_ram_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_erosion2/u_line_shift_3X3_1bit/u_c_shift_ram_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_erosion2/u_line_shift_3X3_1bit/u_c_shift_ram_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 871.719 ; gain = 505.176
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'mSetup_ST_reg' in module 'IICctrl'
+INFO: [Synth 8-5544] ROM "LUT_INDEX" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mSetup_ST" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "key1_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "uart_data" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "uart_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'sram_we_r_reg' into 'en_reg' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:249]
+INFO: [Synth 8-4471] merging register 'read_reg' into 'en_reg' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/topvivado.v:234]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'vivadotop'
+INFO: [Synth 8-802] inferred FSM for state register 'stage_reg' in module 'vivadotop'
+INFO: [Synth 8-5546] ROM "vCounter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "udqm" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "uart_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "sram_ub_r" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sram_ub_r0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sram_oe_r" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_out0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stage" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                  iSTATE |                              010 |                               01
+                 iSTATE1 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mSetup_ST_reg' using encoding 'one-hot' in module 'IICctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                              000
+                 iSTATE1 |                              010 |                              001
+                  iSTATE |                              100 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'vivadotop'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                            00001 |                              000
+                 iSTATE0 |                            00010 |                              001
+                 iSTATE1 |                            00100 |                              010
+                 iSTATE2 |                            01000 |                              011
+                 iSTATE3 |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'stage_reg' using encoding 'one-hot' in module 'vivadotop'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 871.719 ; gain = 505.176
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   3 Input     11 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               25 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               11 Bit    Registers := 13    
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 6     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 19    
+	                1 Bit    Registers := 85    
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input     11 Bit        Muxes := 2     
+	  62 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	  59 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	  41 Input      1 Bit        Muxes := 5     
+	  60 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 43    
+	  59 Input      1 Bit        Muxes := 1     
+	  42 Input      1 Bit        Muxes := 4     
+	  19 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 6     
+	  11 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module vivadotop 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   5 Input      8 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 2     
+Module camCap 
+Detailed RTL Component Info : 
++---Registers : 
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 2     
+Module I2C_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	  62 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	  59 Input      5 Bit        Muxes := 1     
+	  41 Input      1 Bit        Muxes := 5     
+	  60 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 30    
+	  59 Input      1 Bit        Muxes := 1     
+	  42 Input      1 Bit        Muxes := 4     
+	  19 Input      1 Bit        Muxes := 1     
+Module IICctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 3     
+Module key 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     25 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module difference 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module line_shift__9X9_1Bit 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module erosion 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
+Module line_shift_3X3_1bit 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module erosion2 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
+Module line_shift_3X3_1bit_di 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module dilation 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
+Module goal_position 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 10    
+	                1 Bit    Registers := 1     
+Module vga_output 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module uart_recv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+Module uart_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'u_erosion/u_line_shift__3X3_1Bi/row3_data_reg' into 'u_erosion2/u_line_shift_3X3_1bit/row3_data_reg' [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift__9X9_1Bit.v:62]
+WARNING: [Synth 8-3936] Found unconnected internal register 'u_erosion/u_line_shift__3X3_1Bi/per_frame_clken_r_reg' and it is trimmed from '2' to '1' bits. [C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift__9X9_1Bit.v:125]
+INFO: [Synth 8-5546] ROM "vCounter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "udqm" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "uart_en" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design vivadotop has port pwdm driven by constant 0
+WARNING: [Synth 8-3917] design vivadotop has port reset_cam driven by constant 1
+WARNING: [Synth 8-3331] design vivadotop has unconnected port key
+INFO: [Synth 8-3886] merging instance 'u_erosion/u_line_shift__3X3_1Bi/per_frame_clken_r_reg[0]' (FD) to 'u_erosion2/u_line_shift_3X3_1bit/per_frame_clken_r_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_erosion/u_line_shift__3X3_1Bi/per_frame_href_r_reg[0]' (FD) to 'u_erosion2/u_line_shift_3X3_1bit/per_frame_href_r_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_erosion/u_line_shift__3X3_1Bi/per_frame_href_r_reg[1]' (FD) to 'u_erosion2/u_line_shift_3X3_1bit/per_frame_href_r_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_erosion/per_frame_href_r_reg[0]' (FD) to 'u_erosion2/per_frame_href_r_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_erosion/per_frame_href_r_reg[1]' (FD) to 'u_erosion2/per_frame_href_r_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[0]' (FD_1) to 'sram_din_reg[9]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[1]' (FD_1) to 'sram_din_reg[9]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[2]' (FD_1) to 'sram_din_reg[10]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[3]' (FD_1) to 'sram_din_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[4]' (FD_1) to 'sram_din_reg[12]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[5]' (FD_1) to 'sram_din_reg[13]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[6]' (FD_1) to 'sram_din_reg[14]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[7]' (FD_1) to 'sram_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'sram_din_reg[8]' (FD_1) to 'sram_din_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sram_din_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sram_ce_r_reg)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 871.719 ; gain = 505.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------------+-----------------------------------------+---------------+----------------+
+|Module Name              | RTL Object                              | Depth x Width | Implemented As | 
++-------------------------+-----------------------------------------+---------------+----------------+
+|I2C_OV7670_RGB565_Config | LUT_DATA                                | 256x16        | LUT            | 
+|I2C_Controller           | I2C_BIT                                 | 64x1          | LUT            | 
+|vivadotop                | IICctrl_0/inst/u_I2C_Controller/I2C_BIT | 64x1          | LUT            | 
+|vivadotop                | IICctrl_0/inst/LUT_INDEX_reg_rep        | 256x16        | Block RAM      | 
++-------------------------+-----------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance i_5/IICctrl_0/inst/LUT_INDEX_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_0/clk_out1' to pin 'clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz_0/clk_out2' to pin 'clk_wiz_0/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 871.719 ; gain = 505.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 887.430 ; gain = 520.887
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance IICctrl_0/inst/LUT_INDEX_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                            | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|vivadotop   | u_erosion2/per_frame_clken_r_reg[1] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|vivadotop   | u_dilation/per_frame_href_r_reg[1]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|vivadotop   | u_dilation/per_frame_clken_r_reg[1] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|vivadotop   | u_vga_output/vsync_vga_reg          | 11     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|vivadotop   | u_erosion2/per_frame_href_r_reg[1]  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+-------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |blk_mem_gen_0 |         1|
+|3     |c_shift_ram_2 |         1|
+|4     |c_shift_ram_3 |         1|
+|5     |c_shift_ram_0 |         1|
+|6     |c_shift_ram_1 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen_0 |     1|
+|2     |c_shift_ram_0 |     1|
+|3     |c_shift_ram_1 |     1|
+|4     |c_shift_ram_2 |     1|
+|5     |c_shift_ram_3 |     1|
+|6     |clk_wiz_0     |     1|
+|7     |BUFG          |     1|
+|8     |CARRY4        |    61|
+|9     |LUT1          |    18|
+|10    |LUT2          |    69|
+|11    |LUT3          |   109|
+|12    |LUT4          |   146|
+|13    |LUT5          |    74|
+|14    |LUT6          |   118|
+|15    |MUXF7         |     3|
+|16    |RAMB18E1      |     1|
+|17    |SRL16E        |     5|
+|18    |FDRE          |   403|
+|19    |FDSE          |    23|
+|20    |IBUF          |    11|
+|21    |IOBUF         |    16|
+|22    |OBUF          |    47|
+|23    |OBUFT         |     1|
++------+--------------+------+
+
+Report Instance Areas: 
++------+-----------------------------+-----------------------+------+
+|      |Instance                     |Module                 |Cells |
++------+-----------------------------+-----------------------+------+
+|1     |top                          |                       |  1128|
+|2     |  IICctrl_0                  |IICctrl_0              |   153|
+|3     |    inst                     |IICctrl                |   153|
+|4     |      u_I2C_Controller       |I2C_Controller         |    95|
+|5     |  camCap_0                   |camCap_0               |    84|
+|6     |    camCap                   |camCap                 |    84|
+|7     |  u_difference               |difference             |    44|
+|8     |  u_dilation                 |dilation               |    57|
+|9     |    u_line_shift_3X3_1bit_di |line_shift_3X3_1bit_di |    16|
+|10    |  u_erosion2                 |erosion2               |    29|
+|11    |    u_line_shift_3X3_1bit    |line_shift_3X3_1bit    |    16|
+|12    |  u_goal_position            |goal_position          |   367|
+|13    |  u_uart_send                |uart_send              |    54|
+|14    |  u_vga_output               |vga_output             |     2|
++------+-----------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 890.113 ; gain = 182.680
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 890.113 ; gain = 523.570
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 81 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 890.113 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+122 Infos, 24 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 890.113 ; gain = 535.043
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 890.113 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/vivadotop.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vivadotop_utilization_synth.rpt -pb vivadotop_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 23 12:06:50 2019...

@@ -1,0 +1,2451 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 8184
+License: Customer
+
+Current time: 	Thu Nov 21 16:54:28 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 2560x1600
+Screen resolution (DPI): 144
+Available screens: 1
+Available disk space: 12 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	boyeong
+User home directory: C:/Users/70919
+User working directory: C:/Users/70919/Desktop/beta8vivado
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/70919/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/70919/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/70919/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/70919/Desktop/beta8vivado/vivado.log
+Vivado journal file location: 	C:/Users/70919/Desktop/beta8vivado/vivado.jou
+Engine tmp dir: 	C:/Users/70919/Desktop/beta8vivado/.Xil/Vivado-8184-DESKTOP-DULGENH
+
+Xilinx Environment Variables
+----------------------------
+ALTERAOCLSDKROOT: D:\intelFPGA\17.1\hld
+XILINX: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.3
+XILINX_SDK: D:/Xilinx/SDK/2018.3
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 602 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 126 MB (+129912kb) [00:00:08]
+// [Engine Memory]: 571 MB (+447687kb) [00:00:08]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\70919\Desktop\beta8vivado\beta8vivado.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/70919/Desktop/beta8vivado/beta8vivado.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 58 MB. Current time: 11/21/19, 4:54:30 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 709 MB (+114375kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  5290 ms.
+// Tcl Message: open_project C:/Users/70919/Desktop/beta8vivado/beta8vivado.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'. 
+// [Engine Memory]: 772 MB (+28800kb) [00:00:21]
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 796.059 ; gain = 192.504 
+// Project name: beta8vivado; location: C:/Users/70919/Desktop/beta8vivado; part: xc7a35tcsg324-1
+// [Engine Memory]: 850 MB (+41085kb) [00:00:23]
+dismissDialog("Open Project"); // bx (cp)
+// [Engine Memory]: 903 MB (+11168kb) [00:00:27]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 908 MB. GUI used memory: 62 MB. Current time: 11/21/19, 4:54:45 PM CST
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_2/c_shift_ram_2.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 16:54:59 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 16:54:59 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// PAPropertyPanels.initPanels (topvivado.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("topvivado.v", 411, 614); // cl (w, cp)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 402ms to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 148 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_2/c_shift_ram_2.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 16:57:39 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 68 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1326 ms.
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bx (cp)
+selectCodeEditor("topvivado.v", 719, 555); // cl (w, cp)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cQ, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (cp):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.3   **** Build date : Dec  7 2018-00:40:27     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4766 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,780 MB. GUI used memory: 72 MB. Current time: 11/21/19, 4:59:13 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,817 MB (+911082kb) [00:04:58]
+// WARNING: HEventQueue.dispatchEvent() is taking  2233 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Elapsed time: 13 seconds
+dismissDialog("Auto Connect"); // bx (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Elapsed time: 159 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectCodeEditor("topvivado.v", 457, 647); // cl (w, cp)
+selectCodeEditor("topvivado.v", 410, 683); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v)]", 8); // B (D, cp)
+// [GUI Memory]: 138 MB (+5775kb) [00:07:57]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v), u_line_shift__3X3_1Bi : line_shift__9X9_1Bit (line_shift__9X9_1Bit.v)]", 9); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v), u_line_shift__3X3_1Bi : line_shift__9X9_1Bit (line_shift__9X9_1Bit.v)]", 9, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v), u_line_shift__3X3_1Bi : line_shift__9X9_1Bit (line_shift__9X9_1Bit.v)]", 9, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("line_shift__9X9_1Bit.v", 50, 556); // cl (w, cp)
+selectCodeEditor("line_shift__9X9_1Bit.v", 1, 184); // cl (w, cp)
+selectCodeEditor("line_shift__9X9_1Bit.v", 97, 706); // cl (w, cp)
+selectCodeEditor("line_shift__9X9_1Bit.v", 309, 359); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "line_shift__9X9_1Bit.v", 2); // k (j, cp)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "line_shift__9X9_1Bit.v", 2); // k (j, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v)]", 8); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v)]", 8); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v)]", 8, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v)]", 8); // B (D, cp)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("topvivado.v", 497, 521); // cl (w, cp)
+selectCodeEditor("topvivado.v", 433, 543); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("topvivado.v", 424, 657); // cl (w, cp)
+selectCodeEditor("topvivado.v", 394, 581); // cl (w, cp)
+selectCodeEditor("topvivado.v", 394, 581, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 402, 613); // cl (w, cp)
+selectCodeEditor("topvivado.v", 402, 613, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 412, 646); // cl (w, cp)
+selectCodeEditor("topvivado.v", 412, 646, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 433, 604); // cl (w, cp)
+selectCodeEditor("topvivado.v", 433, 604, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 429, 640); // cl (w, cp)
+selectCodeEditor("topvivado.v", 429, 640, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 102, 699); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("topvivado.v", 300, 664); // cl (w, cp)
+selectCodeEditor("topvivado.v", 28, 654); // cl (w, cp)
+selectCodeEditor("topvivado.v", 138, 702); // cl (w, cp)
+selectCodeEditor("topvivado.v", 433, 645); // cl (w, cp)
+selectCodeEditor("topvivado.v", 433, 645, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "topvivado.v", 'c'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 201, 716); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("topvivado.v", 146, 719); // cl (w, cp)
+selectCodeEditor("topvivado.v", 479, 723); // cl (w, cp)
+selectCodeEditor("topvivado.v", 73, 694); // cl (w, cp)
+selectCodeEditor("topvivado.v", 762, 746); // cl (w, cp)
+selectCodeEditor("topvivado.v", 580, 571); // cl (w, cp)
+selectCodeEditor("topvivado.v", 575, 647); // cl (w, cp)
+selectCodeEditor("topvivado.v", 649, 806); // cl (w, cp)
+selectCodeEditor("topvivado.v", 677, 762); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,837 MB. GUI used memory: 76 MB. Current time: 11/21/19, 5:04:50 PM CST
+selectCodeEditor("topvivado.v", 203, 119); // cl (w, cp)
+selectCodeEditor("topvivado.v", 203, 119, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectCodeEditor("topvivado.v", 203, 119); // cl (w, cp)
+selectCodeEditor("topvivado.v", 177, 116); // cl (w, cp)
+selectCodeEditor("topvivado.v", 187, 115); // cl (w, cp)
+selectCodeEditor("topvivado.v", 187, 115, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 210, 146); // cl (w, cp)
+selectCodeEditor("topvivado.v", 210, 146, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 202, 168); // cl (w, cp)
+selectCodeEditor("topvivado.v", 208, 173); // cl (w, cp)
+selectCodeEditor("topvivado.v", 208, 173, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 590, 623); // cl (w, cp)
+selectCodeEditor("topvivado.v", 619, 731); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// f (cp): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:05:26 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 17:05:26 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1176 ms. Increasing delay to 3528 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4422 ms. Increasing delay to 13266 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4487 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 24 ms. Decreasing delay to 2024 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3157 ms. Increasing delay to 9471 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3745 ms. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 181 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:08:30 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 68 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2213 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [GUI Memory]: 145 MB (+99kb) [00:16:06]
+selectCodeEditor("topvivado.v", 285, 638); // cl (w, cp)
+selectCodeEditor("topvivado.v", 285, 638, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 501, 633); // cl (w, cp)
+selectCodeEditor("topvivado.v", 501, 633, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cp)
+selectCodeEditor("topvivado.v", 603, 628); // cl (w, cp)
+selectCodeEditor("topvivado.v", 95, 641); // cl (w, cp)
+selectCodeEditor("topvivado.v", 95, 641, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("topvivado.v", 314, 445); // cl (w, cp)
+selectCodeEditor("topvivado.v", 314, 445, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 186, 228); // cl (w, cp)
+selectCodeEditor("topvivado.v", 186, 228, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_difference : difference (difference.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_difference : difference (difference.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("difference.v", 222, 717); // cl (w, cp)
+selectCodeEditor("difference.v", 222, 717, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectCodeEditor("topvivado.v", 373, 634); // cl (w, cp)
+selectCodeEditor("topvivado.v", 380, 634); // cl (w, cp)
+selectCodeEditor("topvivado.v", 172, 720); // cl (w, cp)
+selectCodeEditor("topvivado.v", 172, 720, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 479, 655); // cl (w, cp)
+selectCodeEditor("topvivado.v", 183, 637); // cl (w, cp)
+selectCodeEditor("topvivado.v", 183, 637, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:12:27 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 181 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Nov 21 17:15:34 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 17:15:34 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1834 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 190 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+// TclEventType: HW_ILA_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// [GUI Memory]: 155 MB (+2211kb) [00:24:29]
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true); // t (Q, cp) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectCodeEditor("topvivado.v", 97, 639); // cl (w, cp)
+selectCodeEditor("topvivado.v", 97, 639, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 188, 639); // cl (w, cp)
+selectCodeEditor("topvivado.v", 188, 639, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 182, 312); // cl (w, cp)
+selectCodeEditor("topvivado.v", 182, 312, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 186, 635); // cl (w, cp)
+selectCodeEditor("topvivado.v", 186, 635, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 509, 621); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:20:02 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 195 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Nov 21 17:23:22 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 17:23:22 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 166 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1464 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("topvivado.v", 199, 687); // cl (w, cp)
+selectCodeEditor("topvivado.v", 199, 687, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 183, 212); // cl (w, cp)
+selectCodeEditor("topvivado.v", 183, 212); // cl (w, cp)
+selectCodeEditor("topvivado.v", 183, 212, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 185, 265); // cl (w, cp)
+selectCodeEditor("topvivado.v", 185, 265, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 199, 198); // cl (w, cp)
+selectCodeEditor("topvivado.v", 199, 198, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("topvivado.v", 437, 642); // cl (w, cp)
+selectCodeEditor("topvivado.v", 463, 637); // cl (w, cp)
+selectCodeEditor("topvivado.v", 217, 63); // cl (w, cp)
+selectCodeEditor("topvivado.v", 217, 63); // cl (w, cp)
+selectCodeEditor("topvivado.v", 217, 63, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 228, 77); // cl (w, cp)
+selectCodeEditor("topvivado.v", 232, 86); // cl (w, cp)
+selectCodeEditor("topvivado.v", 232, 86, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 238, 118); // cl (w, cp)
+selectCodeEditor("topvivado.v", 207, 122); // cl (w, cp)
+selectCodeEditor("topvivado.v", 207, 122, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// [GUI Memory]: 171 MB (+8988kb) [00:33:23]
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:27:44 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+selectCodeEditor("topvivado.v", 582, 628); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 2); // k (j, cp)
+selectCodeEditor("difference.v", 274, 365); // cl (w, cp)
+selectCodeEditor("difference.v", 322, 352); // cl (w, cp)
+selectCodeEditor("difference.v", 588, 316); // cl (w, cp)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("difference.v", 329, 355); // cl (w, cp)
+selectCodeEditor("difference.v", 579, 422); // cl (w, cp)
+selectCodeEditor("difference.v", 460, 717); // cl (w, cp)
+selectCodeEditor("difference.v", 298, 718); // cl (w, cp)
+selectCodeEditor("difference.v", 298, 718, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("difference.v", 228, 715, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectCodeEditor("difference.v", 228, 715); // cl (w, cp)
+selectCodeEditor("difference.v", 228, 715, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectCodeEditor("topvivado.v", 164, 110); // cl (w, cp)
+selectCodeEditor("topvivado.v", 363, 137); // cl (w, cp)
+selectCodeEditor("topvivado.v", 447, 187); // cl (w, cp)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "erosion2"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: close [ open C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/erosion2.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/erosion2.v 
+// I (cp): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Define Module"); // I (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectCodeEditor("topvivado.v", 409, 538); // cl (w, cp)
+selectCodeEditor("topvivado.v", 566, 605); // cl (w, cp)
+// TclEventType: RUN_COMPLETED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 2); // k (j, cp)
+// ah (cp): Implementation Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:29:37 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 17:29:37 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion : erosion (erosion.v)]", 8); // B (D, cp)
+// [GUI Memory]: 181 MB (+2005kb) [00:35:23]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, erosion2 (erosion2.v)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, erosion2 (erosion2.v)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("erosion2.v", 188, 617); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("erosion2.v", 107, 685); // cl (w, cp)
+typeControlKey((HResource) null, "erosion2.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "erosion2.v", 'v'); // cl (w, cp)
+selectCodeEditor("erosion2.v", 116, 676); // cl (w, cp)
+selectCodeEditor("erosion2.v", 111, 694); // cl (w, cp)
+typeControlKey((HResource) null, "erosion2.v", 'v'); // cl (w, cp)
+selectCodeEditor("erosion2.v", 157, 613); // cl (w, cp)
+selectCodeEditor("erosion2.v", 1, 662); // cl (w, cp)
+// TclEventType: RUN_COMPLETED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 3); // k (j, cp)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+dismissDialog("Add Sources"); // c (cp)
+selectCodeEditor("erosion2.v", 161, 577); // cl (w, cp)
+selectCodeEditor("erosion2.v", 161, 577, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectCodeEditor("erosion2.v", 161, 577); // cl (w, cp)
+selectCodeEditor("erosion2.v", 710, 542); // cl (w, cp)
+selectCodeEditor("erosion2.v", 158, 579); // cl (w, cp)
+selectCodeEditor("erosion2.v", 160, 610); // cl (w, cp)
+selectCodeEditor("erosion2.v", 237, 643); // cl (w, cp)
+selectCodeEditor("erosion2.v", 251, 367); // cl (w, cp)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("erosion2.v", 257, 393); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("erosion2.v", 137, 391); // cl (w, cp)
+selectCodeEditor("erosion2.v", 137, 391, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "erosion2.v", 'c'); // cl (w, cp)
+selectCodeEditor("erosion2.v", 458, 393); // cl (w, cp)
+typeControlKey((HResource) null, "erosion2.v", 'v'); // cl (w, cp)
+selectCodeEditor("erosion2.v", 176, 388); // cl (w, cp)
+selectCodeEditor("erosion2.v", 437, 384); // cl (w, cp)
+selectCodeEditor("erosion2.v", 344, 349); // cl (w, cp)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "line_shift_3X3_1bit"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 17 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: close [ open C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift_3X3_1bit.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/new/line_shift_3X3_1bit.v 
+// I (cp): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Define Module"); // I (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, line_shift_3X3_1bit (line_shift_3X3_1bit.v)]", 13, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, line_shift_3X3_1bit (line_shift_3X3_1bit.v)]", 13, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("line_shift_3X3_1bit.v", 107, 698); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 127, 705); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 115, 698); // cl (w, cp)
+// TclEventType: RUN_COMPLETED
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+// ah (cp): Bitstream Generation Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// WARNING: HEventQueue.dispatchEvent() is taking  1031 ms.
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // t (Q, cp) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("line_shift_3X3_1bit.v", 503, 662); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("line_shift_3X3_1bit.v", 40, 665); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 0, 202); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 69, 573); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("line_shift_3X3_1bit.v", 50, 618); // cl (w, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_0]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_0, Synthesis]", 4, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// r (cp): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1010 ms.
+selectCheckBox((HResource) null, "Clock Enable(CE)", false); // g (o, r): FALSE
+// Elapsed time: 10 seconds
+setText("Depth", "800"); // z (bh, r)
+selectCheckBox((HResource) null, "Clock Enable(CE)", true); // g (o, r): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.CE {true} CONFIG.Depth {800}] [get_ips c_shift_ram_0] 
+// r (cp): Re-customize IP: addNotify
+// bx (r):  Re-customize IP : addNotify
+// aI (cp): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // bx (r)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_0] } 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,091 MB. GUI used memory: 107 MB. Current time: 11/21/19, 5:34:41 PM CST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP c_shift_ram_0, cache-ID = 491644db8c3f1f6c; cache size = 2.146 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: config_ip_cache: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1898.922 ; gain = 1.719 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 2,091 MB (+191858kb) [00:40:24]
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// Tcl Message: INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 17 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (C, I)
+selectCodeEditor("line_shift_3X3_1bit.v", 443, 499); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_0]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_0]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_1]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_1, Simulation]", 6, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 35 seconds
+setText("Depth", "800"); // z (bh, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_1, c_shift_ram_1_stub.v]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, c_shift_ram_1, c_shift_ram_1_stub.v]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("c_shift_ram_1_stub.v", 162, 612); // D (w, cp)
+typeControlKey((HResource) null, "c_shift_ram_1_stub.v", 'c'); // D (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "line_shift_3X3_1bit.v", 4); // k (j, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 71, 595); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 69, 606); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 305, 614); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 116, 614); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 2, 606); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 176, 612); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 175, 655); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 206, 589); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 16, 603); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 198, 613); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 123, 609); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'c'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 207, 614); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 660, 637); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 95, 775); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 112, 667); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 73, 686); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 71, 723); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 85, 747); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 121, 749); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 67, 670); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 72, 684); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 96, 721); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 52, 749); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 13, 688); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 46, 375); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'c'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 86, 373); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 116, 262); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 202, 193); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 202, 193, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'c'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 119, 608); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 174, 178); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 174, 178, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'c'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 119, 577); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 111, 639); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 131, 586); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 156, 613); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 156, 613, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 231, 214); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 231, 214, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'c'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 119, 643); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 127, 572); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 127, 572, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("line_shift_3X3_1bit.v", 143, 278); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 143, 278, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'c'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 122, 508); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 122, 508, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 111, 578); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 111, 578, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectCodeEditor("line_shift_3X3_1bit.v", 111, 578); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 815, 516); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 120, 573); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 181, 582); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 181, 582, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'c'); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 112, 692); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "line_shift_3X3_1bit.v", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("line_shift_3X3_1bit.v", 120, 638); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 239, 544); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 3); // k (j, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("erosion2.v", 54, 582); // cl (w, cp)
+typeControlKey((HResource) null, "erosion2.v", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectCodeEditor("topvivado.v", 775, 769); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 57, 335); // cl (w, cp)
+selectCodeEditor("topvivado.v", 84, 337); // cl (w, cp)
+selectCodeEditor("topvivado.v", 251, 392); // cl (w, cp)
+selectCodeEditor("topvivado.v", 102, 393); // cl (w, cp)
+selectCodeEditor("topvivado.v", 69, 392); // cl (w, cp)
+selectCodeEditor("topvivado.v", 249, 504); // cl (w, cp)
+selectCodeEditor("topvivado.v", 189, 505); // cl (w, cp)
+selectCodeEditor("topvivado.v", 251, 533); // cl (w, cp)
+selectCodeEditor("topvivado.v", 168, 522); // cl (w, cp)
+selectCodeEditor("topvivado.v", 249, 550); // cl (w, cp)
+selectCodeEditor("topvivado.v", 176, 553); // cl (w, cp)
+selectCodeEditor("topvivado.v", 244, 585); // cl (w, cp)
+selectCodeEditor("topvivado.v", 144, 586); // cl (w, cp)
+selectCodeEditor("topvivado.v", 173, 490); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("topvivado.v", 66, 390); // cl (w, cp)
+selectCodeEditor("topvivado.v", 197, 352); // cl (w, cp)
+selectCodeEditor("topvivado.v", 224, 339); // cl (w, cp)
+selectCodeEditor("topvivado.v", 251, 672); // cl (w, cp)
+selectCodeEditor("topvivado.v", 191, 662); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("topvivado.v", 250, 717); // cl (w, cp)
+selectCodeEditor("topvivado.v", 186, 710); // cl (w, cp)
+selectCodeEditor("topvivado.v", 202, 659); // cl (w, cp)
+selectCodeEditor("topvivado.v", 245, 749); // cl (w, cp)
+selectCodeEditor("topvivado.v", 161, 746); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("topvivado.v", 488, 600); // cl (w, cp)
+selectCodeEditor("topvivado.v", 568, 615); // cl (w, cp)
+// Elapsed time: 17 seconds
+selectCodeEditor("topvivado.v", 386, 546); // cl (w, cp)
+selectCodeEditor("topvivado.v", 386, 546, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 393, 594); // cl (w, cp)
+selectCodeEditor("topvivado.v", 393, 594, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 393, 590); // cl (w, cp)
+selectCodeEditor("topvivado.v", 393, 590, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 177, 339); // cl (w, cp)
+selectCodeEditor("topvivado.v", 177, 339, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 186, 87); // cl (w, cp)
+selectCodeEditor("topvivado.v", 77, 513); // cl (w, cp)
+selectCodeEditor("topvivado.v", 217, 584); // cl (w, cp)
+selectCodeEditor("topvivado.v", 211, 686); // cl (w, cp)
+selectCodeEditor("topvivado.v", 439, 264); // cl (w, cp)
+selectCodeEditor("topvivado.v", 439, 264, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "topvivado.v", 'c'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 215, 688); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 213, 715); // cl (w, cp)
+selectCodeEditor("topvivado.v", 445, 277); // cl (w, cp)
+selectCodeEditor("topvivado.v", 445, 277, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "topvivado.v", 'c'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 216, 719); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 183, 289); // cl (w, cp)
+selectCodeEditor("topvivado.v", 183, 289, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "topvivado.v", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectCodeEditor("topvivado.v", 219, 554); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 216, 592); // cl (w, cp)
+selectCodeEditor("topvivado.v", 253, 662); // cl (w, cp)
+selectCodeEditor("topvivado.v", 373, 498); // cl (w, cp)
+selectCodeEditor("topvivado.v", 373, 498, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "topvivado.v", 'c'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 252, 667); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 250, 681); // cl (w, cp)
+selectCodeEditor("topvivado.v", 474, 660); // cl (w, cp)
+selectCodeEditor("topvivado.v", 491, 560); // cl (w, cp)
+selectCodeEditor("topvivado.v", 449, 88); // cl (w, cp)
+selectCodeEditor("topvivado.v", 449, 88, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "topvivado.v", 'c'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 253, 694); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 250, 715); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("topvivado.v", 255, 743); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 3); // k (j, cp)
+selectCodeEditor("erosion2.v", 359, 717); // cl (w, cp)
+selectCodeEditor("erosion2.v", 359, 717, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("erosion2.v", 527, 715); // cl (w, cp)
+selectCodeEditor("erosion2.v", 384, 718); // cl (w, cp)
+selectCodeEditor("erosion2.v", 384, 718, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// Elapsed time: 38 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("topvivado.v", 206, 195); // cl (w, cp)
+selectCodeEditor("topvivado.v", 206, 195, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("topvivado.v", 380, 283); // cl (w, cp)
+selectCodeEditor("topvivado.v", 751, 536); // cl (w, cp)
+selectCodeEditor("topvivado.v", 453, 58); // cl (w, cp)
+selectCodeEditor("topvivado.v", 453, 58, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 453, 72); // cl (w, cp)
+selectCodeEditor("topvivado.v", 462, 102); // cl (w, cp)
+selectCodeEditor("topvivado.v", 462, 102, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 468, 140); // cl (w, cp)
+// Elapsed time: 32 seconds
+selectCodeEditor("topvivado.v", 169, 780); // cl (w, cp)
+selectCodeEditor("topvivado.v", 120, 798); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("topvivado.v", 108, 791); // cl (w, cp)
+selectCodeEditor("topvivado.v", 210, 555); // cl (w, cp)
+selectCodeEditor("topvivado.v", 108, 790); // cl (w, cp)
+selectCodeEditor("topvivado.v", 350, 658); // cl (w, cp)
+selectCodeEditor("topvivado.v", 350, 658, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// al (cp): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (cp)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:46:37 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 2); // k (j, cp)
+selectCodeEditor("difference.v", 419, 744); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectCodeEditor("topvivado.v", 414, 766); // cl (w, cp)
+selectCodeEditor("topvivado.v", 967, 759); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "c_shift_ram_1_stub.v", 5); // k (j, cp)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("line_shift_3X3_1bit.v", 369, 518); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 188, 313); // cl (w, cp)
+selectCodeEditor("line_shift_3X3_1bit.v", 188, 313, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: RUN_COMPLETED
+// ah (cp): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// Tcl Message: [Thu Nov 21 17:47:33 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 101 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_MODIFY
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// Tcl Message: [Thu Nov 21 17:49:17 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 3); // k (j, cp)
+selectCodeEditor("erosion2.v", 671, 743); // cl (w, cp)
+selectCodeEditor("erosion2.v", 675, 745); // cl (w, cp)
+selectCodeEditor("erosion2.v", 679, 753); // cl (w, cp)
+selectCodeEditor("erosion2.v", 696, 753); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectCodeEditor("topvivado.v", 985, 733); // cl (w, cp)
+selectCodeEditor("topvivado.v", 790, 391); // cl (w, cp)
+selectCodeEditor("topvivado.v", 241, 551); // cl (w, cp)
+selectCodeEditor("topvivado.v", 241, 551, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 175, 671); // cl (w, cp)
+selectCodeEditor("topvivado.v", 175, 671, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 13 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1562 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "line_shift_3X3_1bit.v", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 1); // k (j, cp)
+selectCodeEditor("difference.v", 472, 621); // cl (w, cp)
+selectCodeEditor("difference.v", 381, 773); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 0); // k (j, cp)
+selectCodeEditor("topvivado.v", 400, 732); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 2); // k (j, cp)
+selectCodeEditor("erosion2.v", 538, 750); // cl (w, cp)
+selectCodeEditor("erosion2.v", 522, 718); // cl (w, cp)
+// Elapsed time: 65 seconds
+selectCodeEditor("erosion2.v", 342, 397); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("erosion2.v", 345, 414); // cl (w, cp)
+selectCodeEditor("erosion2.v", 458, 414); // cl (w, cp)
+selectCodeEditor("erosion2.v", 345, 448); // cl (w, cp)
+selectCodeEditor("erosion2.v", 460, 449); // cl (w, cp)
+selectCodeEditor("erosion2.v", 267, 429); // cl (w, cp)
+selectCodeEditor("erosion2.v", 371, 741); // cl (w, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectCodeEditor("erosion2.v", 514, 745); // cl (w, cp)
+selectCodeEditor("erosion2.v", 628, 728); // cl (w, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectCodeEditor("erosion2.v", 131, 737); // cl (w, cp)
+selectCodeEditor("erosion2.v", 131, 737, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("topvivado.v", 220, 283); // cl (w, cp)
+selectCodeEditor("topvivado.v", 220, 283, false, false, false, false, true); // cl (w, cp) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v)]", 9); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v)]", 10); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Depth {840}] [get_ips c_shift_ram_0] 
+// aI (cp): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_0'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_0] } 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP c_shift_ram_0, cache-ID = 9a09d74470996b04; cache size = 2.146 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// Tcl Message: INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// [GUI Memory]: 194 MB (+4117kb) [01:00:33]
+// TclEventType: DG_GRAPH_STALE
+// f (cp): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 17:54:53 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 17:54:53 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 147 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: [Thu Nov 21 17:57:25 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 66 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "line_shift_3X3_1bit.v", 3); // k (j, cp)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 2); // k (j, cp)
+selectCodeEditor("erosion2.v", 336, 475); // cl (w, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectCodeEditor("erosion2.v", 622, 205); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 2); // k (j, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// Tcl Message: [Thu Nov 21 17:59:41 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (cp)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "difference.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "erosion2.v", 2); // k (j, cp)
+selectCodeEditor("erosion2.v", 705, 517); // cl (w, cp)
+selectCodeEditor("erosion2.v", 684, 496); // cl (w, cp)
+selectCodeEditor("erosion2.v", 632, 195); // cl (w, cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 83 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 18:01:33 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 18:01:33 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cp)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cp): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Close Hardware Manager : addNotify
+dismissDialog("Confirm Close"); // A (cp)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: close_hw 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// [GUI Memory]: 205 MB (+589kb) [01:07:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  1849 ms.
+dismissDialog("Close Hardware Manager"); // bx (cp)
+selectCodeEditor("topvivado.v", 657, 176); // cl (w, cp)
+selectCodeEditor("topvivado.v", 520, 230); // cl (w, cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 164 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (cp):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bx (cp)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cQ, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (cp):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.3   **** Build date : Dec  7 2018-00:40:27     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,091 MB. GUI used memory: 115 MB. Current time: 11/21/19, 6:04:41 PM CST
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Depth {1088}] [get_ips c_shift_ram_0] 
+// aI (cp): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 c_shift_ram_0_synth_1 
+// Tcl Message: [Thu Nov 21 18:06:03 2019] Launched c_shift_ram_0_synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 21 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// Tcl Message: set_property -dict [list CONFIG.Depth {1088}] [get_ips c_shift_ram_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// aI (cp): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (C, J)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_1'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_1] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 c_shift_ram_1_synth_1 
+// Tcl Message: [Thu Nov 21 18:06:37 2019] Launched c_shift_ram_1_synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_1_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1284 ms. Increasing delay to 3000 ms.
+// Elapsed time: 15 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 102 seconds
+selectCodeEditor("topvivado.v", 360, 780); // cl (w, cp)
+selectCodeEditor("topvivado.v", 328, 779); // cl (w, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectCodeEditor("topvivado.v", 1000, 690); // cl (w, cp)
+selectCodeEditor("topvivado.v", 1022, 724); // cl (w, cp)
+selectCodeEditor("topvivado.v", 270, 732); // cl (w, cp)
+selectCodeEditor("topvivado.v", 270, 732, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 82 seconds
+selectCodeEditor("topvivado.v", 952, 747); // cl (w, cp)
+// Elapsed time: 140 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topvivado.v", 1); // k (j, cp)
+selectCodeEditor("topvivado.v", 278, 726); // cl (w, cp)
+selectCodeEditor("topvivado.v", 275, 748); // cl (w, cp)
+selectCodeEditor("topvivado.v", 275, 748, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("topvivado.v", 955, 751); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// f (cp): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 18:12:54 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 18:12:54 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 62 seconds
+selectCodeEditor("topvivado.v", 40, 785); // cl (w, cp)
+selectCodeEditor("topvivado.v", 1028, 749); // cl (w, cp)
+selectCodeEditor("topvivado.v", 965, 756); // cl (w, cp)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 83 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Nov 21 18:15:25 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 66 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // t (Q, cp) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 12 seconds
+dismissDialog("Re-customize IP"); // r (cp)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+setText("Depth", "1056"); // z (bh, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Depth {1056}] [get_ips c_shift_ram_0] 
+// aI (cp): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// [GUI Memory]: 215 MB (+233kb) [01:23:59]
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (C, J)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run c_shift_ram_0_synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 c_shift_ram_0_synth_1 
+// Tcl Message: [Thu Nov 21 18:18:22 2019] Launched c_shift_ram_0_synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 20 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+setText("Depth", "1056"); // z (bh, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Depth {1056}] [get_ips c_shift_ram_1] 
+// TclEventType: FILESET_UPDATE_IP
+// aI (cp): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_1'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_1] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run c_shift_ram_1_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 c_shift_ram_1_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 18:18:54 2019] Launched c_shift_ram_1_synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_1_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+// [GUI Memory]: 226 MB (+515kb) [01:24:58]
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Thu Nov 21 18:19:25 2019] Launched c_shift_ram_0_synth_1, c_shift_ram_1_synth_1, synth_1... Run output will be captured here: c_shift_ram_0_synth_1: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_0_synth_1/runme.log c_shift_ram_1_synth_1: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_1_synth_1/runme.log synth_1: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 18:19:26 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 263 MB (+25993kb) [01:26:12]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 133 seconds
+selectCodeEditor("topvivado.v", 527, 681); // cl (w, cp)
+// Elapsed time: 44 seconds
+selectCodeEditor("topvivado.v", 903, 749); // cl (w, cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 17 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Nov 21 18:22:46 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+// bx (cp):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 65 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1528 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true); // t (Q, cp) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/vivadotop.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("topvivado.v", 855, 762); // cl (w, cp)
+selectCodeEditor("topvivado.v", 844, 723); // cl (w, cp)
+selectCodeEditor("topvivado.v", 844, 736); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+setText("Depth", "1020"); // z (bh, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+setText("Depth", "1020"); // z (bh, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Depth {1020}] [get_ips c_shift_ram_0] 
+// aI (cp): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (C, J)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run c_shift_ram_0_synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 c_shift_ram_0_synth_1 
+// Tcl Message: [Thu Nov 21 18:25:38 2019] Launched c_shift_ram_0_synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+setText("Depth", "1020"); // z (bh, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Depth {1020}] [get_ips c_shift_ram_1] 
+// aI (cp): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (cp):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_shift_ram_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_shift_ram_1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_shift_ram_1'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all c_shift_ram_1] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/70919/Desktop/beta8vivado/beta8vivado.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run c_shift_ram_1_synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 c_shift_ram_1_synth_1 
+// Tcl Message: [Thu Nov 21 18:25:58 2019] Launched c_shift_ram_1_synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_1_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (C, I)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_0 : c_shift_ram_0 (c_shift_ram_0.xci)]", 11, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vivadotop (topvivado.v), u_erosion2 : erosion2 (erosion2.v), u_line_shift_3X3_1bit : line_shift_3X3_1bit (line_shift_3X3_1bit.v), u_c_shift_ram_1 : c_shift_ram_1 (c_shift_ram_1.xci)]", 12, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cp)
+selectCodeEditor("topvivado.v", 941, 753); // cl (w, cp)
+selectCodeEditor("topvivado.v", 938, 776); // cl (w, cp)
+selectCodeEditor("topvivado.v", 933, 727); // cl (w, cp)
+selectCodeEditor("topvivado.v", 944, 752); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 18:26:53 2019] Launched c_shift_ram_0_synth_1, c_shift_ram_1_synth_1, synth_1... Run output will be captured here: c_shift_ram_0_synth_1: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_0_synth_1/runme.log c_shift_ram_1_synth_1: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/c_shift_ram_1_synth_1/runme.log synth_1: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Thu Nov 21 18:26:53 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 289 MB (+13683kb) [01:33:03]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,091 MB. GUI used memory: 168 MB. Current time: 11/21/19, 6:34:42 PM CST
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (cp):  Open Implemented Design : addNotify
+// Elapsed time: 2225 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bx)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Tcl Message: open_run impl_1 
+selectCodeEditor("topvivado.v", 459, 412); // cl (w, cp)
+selectCodeEditor("topvivado.v", 488, 572); // cl (w, cp)
+closeMainWindow("beta8vivado - [C:/Users/70919/Desktop/beta8vivado/beta8vivado.xpr] - Vivado 2018.3"); // cp
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

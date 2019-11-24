@@ -1,0 +1,559 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 8932
+License: Customer
+
+Current time: 	Tue Nov 19 17:32:00 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 2560x1600
+Screen resolution (DPI): 144
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	boyeong
+User home directory: C:/Users/70919
+User working directory: C:/Users/70919/Desktop/beta8vivado
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/70919/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/70919/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/70919/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/70919/Desktop/beta8vivado/vivado.log
+Vivado journal file location: 	C:/Users/70919/Desktop/beta8vivado/vivado.jou
+Engine tmp dir: 	C:/Users/70919/Desktop/beta8vivado/.Xil/Vivado-8932-DESKTOP-DULGENH
+
+Xilinx Environment Variables
+----------------------------
+ALTERAOCLSDKROOT: D:\intelFPGA\17.1\hld
+XILINX: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.3
+XILINX_SDK: D:/Xilinx/SDK/2018.3
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	384 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 648 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 93 MB (+95335kb) [00:00:10]
+// [Engine Memory]: 616 MB (+494283kb) [00:00:10]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\70919\Desktop\beta8vivado\beta8vivado.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/70919/Desktop/beta8vivado/beta8vivado.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 60 MB. Current time: 11/19/19, 5:32:02 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 115 MB (+18136kb) [00:00:20]
+// [Engine Memory]: 744 MB (+101596kb) [00:00:20]
+// [Engine Memory]: 781 MB (+356kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  5783 ms.
+// Tcl Message: open_project C:/Users/70919/Desktop/beta8vivado/beta8vivado.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1014 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 906.207 ; gain = 62.523 
+// Project name: beta8vivado; location: C:/Users/70919/Desktop/beta8vivado; part: xc7a35tcsg324-1
+// [GUI Memory]: 125 MB (+4653kb) [00:00:28]
+// [Engine Memory]: 992 MB (+180627kb) [00:00:28]
+dismissDialog("Open Project"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 994 MB. GUI used memory: 63 MB. Current time: 11/19/19, 5:32:17 PM CST
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (Q, cp)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (Q, cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1219 ms.
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bx (cp)
+// bx (cp):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.3   **** Build date : Dec  7 2018-00:40:27     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4690 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,768 MB. GUI used memory: 65 MB. Current time: 11/19/19, 5:32:37 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,768 MB (+761694kb) [00:00:51]
+// WARNING: HEventQueue.dispatchEvent() is taking  2399 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Elapsed time: 13 seconds
+dismissDialog("Auto Connect"); // bx (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 379 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 150 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 256 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 195 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 215 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topvivado (topvivado.v)]", 1); // B (D, cp)
+// [GUI Memory]: 134 MB (+1978kb) [00:21:15]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topvivado (topvivado.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topvivado (topvivado.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("topvivado.v", 268, 719); // cl (w, cp)
+// Elapsed time: 41 seconds
+selectCodeEditor("topvivado.v", 462, 744); // cl (w, cp)
+selectCodeEditor("topvivado.v", 126, 806); // cl (w, cp)
+selectCodeEditor("topvivado.v", 78, 816); // cl (w, cp)
+selectCodeEditor("topvivado.v", 99, 805); // cl (w, cp)
+selectCodeEditor("topvivado.v", 156, 793); // cl (w, cp)
+selectCodeEditor("topvivado.v", 94, 807); // cl (w, cp)
+selectCodeEditor("topvivado.v", 140, 776); // cl (w, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xdc.xdc]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xdc.xdc]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, xdc.xdc]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 123 seconds
+selectCodeEditor("xdc.xdc", 492, 394); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 526, 87); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 511, 392); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 245, 105); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 560, 377); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 434, 429); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 443, 450); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("xdc.xdc", 477, 653); // cl (w, cp)
+// Elapsed time: 115 seconds
+selectCodeEditor("xdc.xdc", 477, 551); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 246, 208); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("xdc.xdc", 406, 247); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 533, 321); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,778 MB. GUI used memory: 78 MB. Current time: 11/19/19, 6:02:37 PM CST
+// Elapsed time: 212 seconds
+selectCodeEditor("xdc.xdc", 471, 442); // cl (w, cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// Elapsed time: 148 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// n (cp): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cp)
+selectCodeEditor("xdc.xdc", 256, 442); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 262, 443); // cl (w, cp)
+selectCodeEditor("xdc.xdc", 241, 445); // cl (w, cp)
+// Elapsed time: 44 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cp)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Nov 19 18:06:10 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Tue Nov 19 18:06:10 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 147 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_MODIFY
+// bx (cp):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Nov 19 18:08:40 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 86 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1958 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ;   ", 3, "XADC", 0, false, false, false, false, true, false); // t (Q, cp) - Popup Trigger
+// [GUI Memory]: 142 MB (+1996kb) [00:38:30]
+// [GUI Memory]: 154 MB (+4441kb) [00:38:30]
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 342 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)
+// Elapsed time: 299 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (Q, cp) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 38 seconds
+selectCodeEditor("topvivado.v", 139, 798); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectCodeEditor("topvivado.v", 96, 790); // cl (w, cp)
+selectCodeEditor("topvivado.v", 195, 676); // cl (w, cp)
+selectCodeEditor("topvivado.v", 90, 800); // cl (w, cp)
+typeControlKey((HResource) null, "topvivado.v", 'v'); // cl (w, cp)
+selectCodeEditor("topvivado.v", 245, 282); // cl (w, cp)
+selectCodeEditor("topvivado.v", 282, 289); // cl (w, cp)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 13, false); // u (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 13, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Nov 19 18:23:02 2019] Launched synth_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/synth_1/runme.log [Tue Nov 19 18:23:02 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 149 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Nov 19 18:25:33 2019] Launched impl_1... Run output will be captured here: C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 110 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // t (Q, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cp): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bx (cp):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cp)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/70919/Desktop/beta8vivado/beta8vivado.runs/impl_1/topvivado.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (cp)

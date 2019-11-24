@@ -1,0 +1,110 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Nov 23 12:07:54 2019
+| Host         : DESKTOP-DULGENH running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file vivadotop_control_sets_placed.rpt
+| Design       : vivadotop
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    36 |
+| Unused register locations in slices containing registers |   131 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      4 |            1 |
+|      5 |            3 |
+|      6 |            6 |
+|      8 |            3 |
+|      9 |            1 |
+|     11 |            5 |
+|     12 |            1 |
+|     13 |            2 |
+|    16+ |           11 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             104 |           54 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              88 |           30 |
+| Yes          | No                    | No                     |             137 |           83 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             148 |           45 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+----------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|       Clock Signal       |                       Enable Signal                      |                      Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++--------------------------+----------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|  clk_wiz_0/inst/clk_out2 | sram_oe_r_i_1_n_0                                        |                                                           |                1 |              1 |
+|  clk_wiz_0/inst/clk_out2 | u_uart_send/uart_txd_i_2_n_0                             | u_uart_send/uart_txd_i_1_n_0                              |                1 |              1 |
+|  clk_wiz_0/inst/clk_out2 | FSM_onehot_state_reg_n_0_[1]                             | sram_ub_r0                                                |                1 |              2 |
+|  clk_wiz_0/inst/clk_out2 | u_uart_send/tx_cnt[3]_i_1_n_0                            | u_uart_send/uart_txd_i_1_n_0                              |                2 |              4 |
+|  uart_en_reg_n_0         | FSM_onehot_stage[4]_i_1_n_0                              |                                                           |                2 |              5 |
+|  clk_wiz_0/inst/clk_out2 | vCounter                                                 | vCounter[9]_i_1_n_0                                       |                5 |              5 |
+|  clk_wiz_0/inst/clk_out1 | IICctrl_0/inst/u_I2C_Controller/E[0]                     | IICctrl_0/inst/FSM_onehot_mSetup_ST[2]_i_1_n_0            |                1 |              5 |
+|  pclk_IBUF_BUFG          |                                                          | vsync_IBUF                                                |                3 |              6 |
+|  clk_wiz_0/inst/clk_out1 | IICctrl_0/inst/u_I2C_Controller/SD_COUNTER               | IICctrl_0/inst/u_I2C_Controller/SD_COUNTER[5]_i_1_n_0     |                3 |              6 |
+| ~clk_wiz_0/inst/clk_out2 |                                                          |                                                           |                5 |              6 |
+|  clk_wiz_0/inst/clk_out2 | vCounter                                                 |                                                           |                2 |              6 |
+|  clk_wiz_0/inst/clk_out2 | u_dilation/u_line_shift_3X3_1bit_di/per_frame_clken_r[0] | u_dilation/u_line_shift_3X3_1bit_di/matrix_p12_i_1__0_n_0 |                2 |              6 |
+|  clk_wiz_0/inst/clk_out2 | u_erosion2/u_line_shift_3X3_1bit/per_frame_clken_r[0]    | u_erosion2/u_line_shift_3X3_1bit/matrix_p12_i_1_n_0       |                1 |              6 |
+|  clk_wiz_0/inst/clk_out1 | IICctrl_0/inst/LUT_INDEX_reg_rep_i_1_n_0                 |                                                           |                2 |              8 |
+|  uart_en_reg_n_0         | data_out                                                 | data_out0                                                 |                2 |              8 |
+|  clk_wiz_0/inst/clk_out2 | u_uart_send/tx_data[7]_i_2_n_0                           | u_uart_send/tx_data[7]_i_1_n_0                            |                1 |              8 |
+|  clk_wiz_0/inst/clk_out2 |                                                          | u_uart_send/clk_cnt[8]_i_1_n_0                            |                3 |              9 |
+|  clk_wiz_0/inst/clk_out2 | u_dilation/post_img_Bit4_reg_1[0]                        | u_goal_position/comp_tc2                                  |                3 |             11 |
+|  clk_wiz_0/inst/clk_out2 | u_dilation/E[0]                                          | u_goal_position/comp_tc2                                  |                3 |             11 |
+|  clk_wiz_0/inst/clk_out2 | u_dilation/post_img_Bit4_reg_0[0]                        | u_goal_position/comp_tc2                                  |                3 |             11 |
+|  clk_wiz_0/inst/clk_out1 |                                                          | IICctrl_0/inst/mI2C_CLK_DIV[10]_i_1_n_0                   |                3 |             11 |
+|  clk_wiz_0/inst/clk_out2 | u_dilation/post_img_Bit4_reg_2[0]                        | u_goal_position/comp_tc2                                  |                2 |             11 |
+|  clk_wiz_0/inst/clk_out1 |                                                          |                                                           |                9 |             12 |
+|  clk_wiz_0/inst/clk_out2 |                                                          | red_post[4]                                               |                5 |             13 |
+|  pclk_IBUF_BUFG          |                                                          | camCap_0/camCap/address[15]_i_1_n_0                       |                3 |             13 |
+| ~clk_wiz_0/inst/clk_out2 |                                                          | cap_pixel[15]_i_1_n_0                                     |                7 |             16 |
+|  pclk_IBUF_BUFG          | camCap_0/camCap/dout[15]_i_1_n_0                         |                                                           |                9 |             16 |
+|  clk_wiz_0/inst/clk_out2 | sel                                                      | address[0]_i_1_n_0                                        |                5 |             17 |
+|  pclk_IBUF_BUFG          | camCap_0/camCap/p_0_in1_in                               | vsync_IBUF                                                |                5 |             17 |
+|  pclk_IBUF_BUFG          | camCap_0/camCap/d_latch[15]_i_1_n_0                      |                                                           |               13 |             17 |
+|  clk_wiz_0/inst/clk_out2 | cap_addr[0]_i_1_n_0                                      | address[0]_i_1_n_0                                        |                5 |             19 |
+|  clk_wiz_0/inst/clk_out2 |                                                          | cnt[19]_i_1_n_0                                           |                6 |             20 |
+|  clk_wiz_0/inst/clk_out2 | u_goal_position/comp_tc                                  |                                                           |               14 |             44 |
+|  clk_wiz_0/inst/clk_out2 | u_difference/CE                                          |                                                           |               20 |             86 |
+|  clk_wiz_0/inst/clk_out2 | u_erosion2/per_frame_clken_r_reg[1]__0_0                 |                                                           |               20 |             86 |
+|  clk_wiz_0/inst/clk_out2 |                                                          |                                                           |               40 |             91 |
++--------------------------+----------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+
+
